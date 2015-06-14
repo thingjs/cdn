@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Thing.js Tests</title>
+        <link rel="stylesheet" href="nodeunit/nodeunit.css" type="text/css" />
+        <script src="nodeunit/nodeunit.js"></script>
+        <script src="../async-0.9.0.js"></script>
+        <script src="../jsonld-0.3.22.js"></script>
+        <script src="../mqttws31.js"></script>
+        <script src="bootstrap.js"></script>
+        <script src="core.js"></script>
+        <script src="Object.js"></script>
+        <script src="Base.js"></script>
+        <script src="Definition.js"></script>
+        <script src="Delegate.js"></script>
+        <script src="Pattern.js"></script>
+        <script src="Agent.js"></script>
+        <script src="Behaviour.js"></script>
+        <script src="Selector.js"></script>
+        <script src="Container.js"></script>
+        <script src="Tasker.js"></script>
+        <script src="Heartbeat.js"></script>
+        <script src="Flow.js"></script>
+        <script src="Series.js"></script>
+        <script src="Parallel.js"></script>
+        <script src="Queue.js"></script>
+        <script src="MapReduce.js"></script>
+        <script src="Waker.js"></script>
+        <script src="Util.js"></script>
+        <script src="transport/Mqtt.js"></script>
+        <script>
+            var exports = {};
+        </script>
+        <script src="test.js"></script>
+    </head>
+    <body>
+        <script>
+            nodeunit.run({
+                'test-agent': exports,
+            });
+        </script>
+    </body>
+</html>
